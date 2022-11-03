@@ -34,10 +34,10 @@ function Register() {
            headers:{"Content-Type":"application/json"},
            body:JSON.stringify(values)
          }
-         await fetch('http://localhost:3000/api/auth/signup',options)
+         await fetch('https://authapp-xi.vercel.app/api/auth/signup',options)
          .then(res=>res.json())
          .then((data)=>{
-           if(data)route.push('http://localhost:3000')
+           if(data)route.push('https://authapp-xi.vercel.app')
          })
        }
 
