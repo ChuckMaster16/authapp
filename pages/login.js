@@ -41,15 +41,15 @@ function Login() {
      }
 //calling the google login from the login page
 async function handleGoogleSignin(){
-  signIn('google', {callbackUrl: process.env.HOST})
+  signIn('google', {callbackUrl: "https://authapp-xi.vercel.app"})
 }
 //calling the facebook login from the login page
 async function handleFacebookSignin(){
-  signIn('facebook', {callbackUrl: process.env.HOST})
+  signIn('facebook', {callbackUrl: "https://authapp-xi.vercel.app"})
 }
 //calling the github login from the login page
 async function handlegithubSignin(){
-  signIn('github', {callbackUrl: process.env.HOST})
+  signIn('github', {callbackUrl: "https://authapp-xi.vercel.app"})
 }
 
 
