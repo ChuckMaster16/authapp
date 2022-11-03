@@ -1,7 +1,7 @@
 import Link from 'next/link'
 import {getSession} from 'next-auth/react'
 
-export default () => {
+export default Profile () => {
   return (
     <section className="container mx-auto text-center">
       <h3 className="text-4xl text-bold"> Welcome to your profile </h3>

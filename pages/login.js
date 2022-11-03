@@ -104,7 +104,7 @@ async function handlegithubSignin(){
           <button onClick={handlegithubSignin} type="button" className={style.button_custom}>Sign In with GitHub <Image src={"/assets/github.png"} width={30} height={30}></Image></button>
         </div>
       </form>
-      <p className="text-center text-gray-400">Don't have and account yet? <Link className="text-blue-500" href={"/register"}>Signup</Link></p>
+      <p className="text-center text-gray-400">Dont have and account yet? <Link className="text-blue-500" href={"/register"}>Signup</Link></p>
 
       <div className=""></div>
 
