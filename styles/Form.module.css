@@ -3,7 +3,7 @@
   position: relative;
 }
 .input_text{
-  @apply w-full py-4 px-6 border rounded-xl bg-slate-50;
+  @apply w-full bg-white py-4 px-6 border rounded-xl bg-slate-50;
   @apply focus:outline-none border-none;
 }
 .button {
